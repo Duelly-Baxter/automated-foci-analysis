@@ -1,0 +1,16 @@
+name: automated-foci-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-image
+  - pillow
+  - requests
+  - tqdm
+  - pip
+  - pip:
+    - opencv-python-headless

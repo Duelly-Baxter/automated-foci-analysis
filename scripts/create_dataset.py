@@ -2,7 +2,11 @@ import os
 import shutil
 import random
 
-# Update these to your actual paths
+"""
+This script was used to make the 300 image data subset for use in the demo. 
+It should not be run with the rest of the pipeline.
+"""
+
 source_folder = "data"
 subset_folder = "data_subset_300"
 limit = 300
