@@ -41,4 +41,5 @@ def main():
 
 
 if __name__ == "__main__":
+    # generate_report_figure('../data/SIMCEPImages_D02_C5_F10_s21_w2.TIF')
     main()
